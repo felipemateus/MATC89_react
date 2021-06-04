@@ -34,6 +34,15 @@ const styles = StyleSheet.create({
       letterSpacing: 2,
     },
 
+    buttonTerminarAula: {
+      width: 140,
+      height: 42,
+      backgroundColor: '#800000',
+      margin: 10,
+      borderRadius: 20,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
     buttonAcessar: {
       width: 140,
       height: 42,
@@ -76,6 +85,10 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       color: '#800000'
     },
+    buttonTextWhite:{
+      fontSize: 18,
+      color: '#ffffff'
+    },
 
 
 
@@ -117,10 +130,28 @@ const styles = StyleSheet.create({
     },
     statusBoxBig:{
       height:150
-    }
+    },
 
+    statusBoxBigBig:{
+      height:250
+    },
+    picker: {
+      height: 20,
+      backgroundColor: '#00ffea',
+      margin: 10,
+      borderRadius: 20,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    borderPicker: {
+      backgroundColor: '#00ffea',
+      borderWidth: 1,
+      borderColor: '#b0fffa', 
+      borderRadius: 20  ,
+      width: 300,
+      marginLeft:10
 
-
+    },
 
   });
 

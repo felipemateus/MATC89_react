@@ -26,13 +26,13 @@ function Tabs() {
         keyboardHidesTabBar:true,
         style:{
           position:'absolute',
-          bottom:15,
+          bottom:10,
           left:20,
           right:20,
           elevation:0,
           backgroundColor:'#ffffff',
           borderRadius:15,
-          height:70,
+          height:60,
           ...styleTab.shadow
         }
       }}
