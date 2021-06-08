@@ -38,9 +38,9 @@ export default function ListagemDisciplinas({data}) {
     return (
         <View style={[styles.statusBox, styles.statusBoxBig]}>
             <Text style= {[styles.textBox,styles.textBoxHead]}>{data.nomeTurma}</Text>
-            <Text style= {[styles.textBox,styles.textBoxHead]}>Código: {data.codigo}</Text>
-            <Text style= {[styles.textBox,styles.textBoxHead]}>Quantidade de Aulas: {qtdAulas}</Text>
-            <Text style= {[styles.textBox,styles.textBoxHead]}>Quantidade de Presenças: {qtdPresenca}</Text>
+            <Text style= {[styles.textBox]}>Código: {data.codigo}</Text>
+            <Text style= {[styles.textBox]}>Quantidade de Aulas: {qtdAulas}</Text>
+            <Text style= {[styles.textBox]}>Quantidade de Presenças: {qtdPresenca}</Text>
 
 
 

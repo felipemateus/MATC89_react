@@ -68,7 +68,7 @@ export default function Cadastrar(){
 
     return (
         <View style={styles.container}>
-        <Text>Tela de Cadastro</Text>
+        <Text style={styles.textHome}>Tela de Cadastro</Text>
 
         <TextInput
             style={styles.input}

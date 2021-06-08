@@ -44,10 +44,11 @@ export default function Home(){
         firebase.database().ref('usuarios/'+user.uid+'/turmas/'+selectedTurma.key).update({
           qtdPresenca: tempQtdPresenca
         });
-        
+        alert('Presença Confirmada');
 
         console.log("Presença Confirmada")
       }else{
+        alert('Presença não confirmada');
         console.log("Presença não Confirmada")
       } 
     });
@@ -187,23 +188,6 @@ export default function Home(){
       />
 
 
-
-
-      <View style={styles.statusBox}>
-        <Text style= {[styles.textBox,styles.textBoxHead]}>Próximas Aulas:</Text>
-        <Text style= {styles.textBox}>Aula: Nome Da disciplina  </Text>
-        
-      </View>
-      <View style={styles.statusBox}>
-        <Text style= {[styles.textBox,styles.textBoxHead]}>Próximas Aulas:</Text>
-        <Text style= {styles.textBox}>Aula: Nome Da disciplina  </Text>
-        
-      </View>
-      <View style={styles.statusBox}>
-        <Text style= {[styles.textBox,styles.textBoxHead]}>Próximas Aulas:</Text>
-        <Text style= {styles.textBox}>Aula: Nome Da disciplina  </Text>
-        
-      </View>
 
 
     </ScrollView>

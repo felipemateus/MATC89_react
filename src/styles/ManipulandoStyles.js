@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#b0fffa' ,
+      backgroundColor: '#ffffff' ,
       justifyContent: 'center',
       alignItems: 'center',
   
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     buttonTerminarAula: {
       width: 140,
       height: 42,
-      backgroundColor: '#f54242',
+      backgroundColor: '#ffb347',
       margin: 10,
       borderRadius: 20,
       alignItems: 'center',
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     buttonAcessar: {
       width: 140,
       height: 42,
-      backgroundColor: '#00ff91',
+      backgroundColor: '#8be4db',
       margin: 10,
       borderRadius: 20,
       alignItems: 'center',
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
       marginTop: 10,
       padding: 10,
       width: 300,
-      backgroundColor: '#00ffea',
+      backgroundColor: '#CBF3F0',
       fontSize: 16,
       fontWeight: 'bold',
       borderRadius: 20,
@@ -82,27 +82,27 @@ const styles = StyleSheet.create({
 
     buttonText:{
       fontSize: 18,
-      fontWeight: 'bold',
-      color: '#800000'
+      color: '#000000'
     },
     buttonTextWhite:{
       fontSize: 18,
-      color: '#ffffff'
+      color: '#000000'
     },
 
 
 
     container1: {
       flex: 1,
-      backgroundColor: '#b0fffa' 
+      backgroundColor: '#ffffff' 
     },
     textHome:{
       fontSize:30,
       margin:30
     },
     textBoxHead:{
-      fontSize:20,
-      marginTop:5
+      fontSize:22,
+      marginTop:5,
+      fontWeight:'bold',
       
     },
     textBox:{
@@ -114,17 +114,20 @@ const styles = StyleSheet.create({
     
   
     statusBox:{
+      borderWidth: 2,
+      borderTopColor: '#ffbf69',
+      borderRadius: 15,
+      borderColor:'#cbf3f0',
       backgroundColor:'#b0ffaa', 
       height:120,
       margin:20,
-      borderRadius:5,
       shadowColor: '#000',
       shadowOffset: {
-        width: 0,
-        height: 2,
+        width: 10,
+        height: 20,
       },
-      shadowOpacity: 0.23,
-      shadowRadius: 2.62,
+      shadowOpacity: 2.23,
+      shadowRadius: 5.62,
   
       elevation: 4,
     },
@@ -136,15 +139,15 @@ const styles = StyleSheet.create({
       height:250
     },
     picker: {
-      height: 20,
-      backgroundColor: '#00ffea',
+      height: 25,
+      backgroundColor: '#CBF3F0',
       margin: 10,
       borderRadius: 20,
       alignItems: 'center',
       justifyContent: 'center',
     },
     borderPicker: {
-      backgroundColor: '#00ffea',
+      backgroundColor: '#CBF3F0',
       borderWidth: 1,
       borderColor: '#b0fffa', 
       borderRadius: 20  ,

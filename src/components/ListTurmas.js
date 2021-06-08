@@ -60,8 +60,8 @@ export default function Listagem({data}) {
     return (
         <View style={[styles.statusBox, styles.statusBoxBigBig]}>
             <Text style= {[styles.textBox,styles.textBoxHead]}>{data.nomeTurma}</Text>
-            <Text style= {[styles.textBox,styles.textBoxHead]}>Código: {data.codigo}</Text>
-            <Text style= {[styles.textBox,styles.textBoxHead]}>Quantidade de aulas: {qtdAulas}</Text>
+            <Text style= {styles.textBox}>Código: {data.codigo}</Text>
+            <Text style= {styles.textBox}>Quantidade de aulas: {qtdAulas}</Text>
 
 
             <View style={{flexDirection:'row'}}>
