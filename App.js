@@ -47,10 +47,10 @@ function Tabs() {
               style={{
                 width:25,
                 height:25,
-                tintColor:focused ? '#e32f45' : '#748c94'
+                tintColor:focused ? '#41b6fa' : '#748c94'
               }}
             />
-            <Text style={{color:focused ? '#e32f45' : '#748c94',fontSize:10}}>
+            <Text style={{color:focused ? '#41b6fa' : '#748c94',fontSize:10}}>
               Home
             </Text>
           </View>
@@ -67,10 +67,10 @@ function Tabs() {
                 style={{
                   width:25,
                   height:25,
-                  tintColor:focused ? '#e32f45' : '#748c94'
+                  tintColor:focused ? '#41b6fa' : '#748c94'
                 }}
               />
-              <Text style={{color:focused ? '#e32f45' : '#748c94',fontSize:10}}>
+              <Text style={{color:focused ? '#41b6fa' : '#748c94',fontSize:10}}>
                 Turmas
               </Text>
             </View>

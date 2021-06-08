@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     buttonTerminarAula: {
       width: 140,
       height: 42,
-      backgroundColor: '#800000',
+      backgroundColor: '#f54242',
       margin: 10,
       borderRadius: 20,
       alignItems: 'center',
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
       elevation: 4,
     },
     statusBoxBig:{
-      height:150
+      height:160
     },
 
     statusBoxBigBig:{
