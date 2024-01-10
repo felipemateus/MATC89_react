@@ -42,7 +42,7 @@ function Tabs() {
         tabBarIcon:({focused}) => (
           <View style={{alignItems:'center',justifyContent:'center'}}>
             <Image
-              source={require('../meuApp/assets/icons/home.png')}
+              source={require('./assets/icons/home.png')}
               resizeMode='contain'
               style={{
                 width:25,
@@ -62,7 +62,7 @@ function Tabs() {
           tabBarIcon:({focused}) => (
             <View style={{alignItems:'center',justifyContent:'center'}}>
               <Image
-                source={require('../meuApp/assets/icons/book-1.png')}
+                source={require('./assets/icons/book-1.png')}
                 resizeMode='contain'
                 style={{
                   width:25,
